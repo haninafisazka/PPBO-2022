@@ -1,0 +1,25 @@
+import java.text.DecimalFormat;
+
+// Nama : Hanina Nafisa Azka
+// NIM  : M0521027
+class PPBO_02_Latihan1 {
+    public static void main(String[] args) {
+        int a = 10;
+        double b = 3.0;
+        float c = 4.3f;
+
+        double abc = Double.valueOf (a) + Double.valueOf (b) + Double.valueOf (c);
+
+        DecimalFormat df = new DecimalFormat ("#.#");
+        System.out.println(df.format(abc));
+    }
+}
+
+// ubah variabel a dan c ke tipe data double
+// jumlahkan variabel a, b, dan c
+// tampilkan hasil penjumlahan ketiga variabel
+
+/*
+ * Output yang diharapkan:
+    17.3
+ */
